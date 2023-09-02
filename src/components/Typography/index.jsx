@@ -1,4 +1,4 @@
-export const Typography = ({ variant, children }) => {
+export const Typography = ({ variant, children, className }) => {
   const getTextStyle = (t) => {
     switch (t) {
       case 'h1':
@@ -20,5 +20,5 @@ export const Typography = ({ variant, children }) => {
     }
   }
 
-  return <p className={` ${getTextStyle(variant)} `}>{children}</p>
+  return <p className={` ${getTextStyle(variant)} ${className} `}>{children}</p>
 }

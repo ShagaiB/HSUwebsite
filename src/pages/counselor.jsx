@@ -1,6 +1,11 @@
+import { TopPicture } from "../components/topPicture"
+
 const Counselor = () =>{
 
-    return <div>Hello Counselor</div>
+    return <div>
+
+    <TopPicture></TopPicture>
+    </div>
 }
 
 export default Counselor
