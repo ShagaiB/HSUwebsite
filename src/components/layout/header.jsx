@@ -13,7 +13,7 @@ const list = [
 export const Header = () => {
   return (
     <div className="h-[145px] w-screen max-w-[1260px]">
-      <div className=" max-w-[1260px] flex flex-row w-screen justify-between items-center h-[145px] fixed">
+      <div className=" max-w-[1260px] flex flex-row w-screen justify-between items-center h-[145px] fixed backdrop-blur-sm">
         <Link href = "/">
         <div className="flex flex-row items-center cursor-pointer">
           <div className="w-[85px] ">
