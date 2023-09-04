@@ -9,7 +9,8 @@ const Page = () =>{
   return <div className="flex flex-col w-full items-center">
     
 
-    <Typography variant = "h1">Tsogt</Typography>
+  <Typography variant="h1">Amraa</Typography>
+<Typography variant = "h1">Tsogt</Typography>
     <Typography variant = "caption">ermuun</Typography>
     <div className="my-[50px]">
       <TitleCard>This is title Card</TitleCard>
