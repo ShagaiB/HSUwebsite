@@ -17,6 +17,9 @@ export const Typography = ({ variant, children, className }) => {
         return 'text-[10px] font-regular font-sans underline'
       case 'schoolTitle':
         return 'text-[34px] font-bold font-serif leading-[34px]'
+
+      case 'amraa':
+        return 'text-[1000px] font-bold font-serif'
     }
   }
 
