@@ -11,6 +11,7 @@ const Page = () =>{
 
   <Typography variant="h1">Amraa</Typography>
 <Typography variant = "h1">Tsogt</Typography>
+<Typography variant = "h3">dari</Typography>
     <Typography variant = "caption">ermuun</Typography>
     <div className="my-[50px]">
       <TitleCard>This is title Card</TitleCard>
