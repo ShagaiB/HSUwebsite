@@ -22,7 +22,7 @@ const Page = () =>{
     <Typography variant = "h2">h2</Typography>
     <Typography variant = "h3">h3</Typography>
     <Typography variant = "schoolTitle">school title</Typography>
-    <Typography variant = "body">body</Typography>
+    <Typography variant = "body">Hot boy Anar</Typography>
     <Typography variant = "bodyBold">bodyBold</Typography>
     <Typography variant = "caption">caption</Typography>
     <Typography variant = "captionUnderlined">caption - underlined</Typography>
