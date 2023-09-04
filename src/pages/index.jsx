@@ -9,6 +9,7 @@ const Page = () =>{
   return <div className="flex flex-col w-full items-center">
 
   <Typography variant="h1">Amraa</Typography>
+<Typography variant = "h1">Tsogt</Typography>
 
     <div className="my-[50px]">
       <TitleCard>This is title Card</TitleCard>
@@ -21,7 +22,7 @@ const Page = () =>{
     <Typography variant = "h2">h2</Typography>
     <Typography variant = "h3">h3</Typography>
     <Typography variant = "schoolTitle">school title</Typography>
-    <Typography variant = "body">body</Typography>
+    <Typography variant = "body">Hot boy Anar</Typography>
     <Typography variant = "bodyBold">bodyBold</Typography>
     <Typography variant = "caption">caption</Typography>
     <Typography variant = "captionUnderlined">caption - underlined</Typography>
