@@ -7,7 +7,7 @@ const longLoremIpsumText = "Lorem ipsum dolor sit amet, consectetur adipiscing e
 const Page = () =>{
 
   return <div className="flex flex-col w-full items-center">
-
+    
     <div className="my-[50px]">
       <TitleCard>This is title Card</TitleCard>
       <TitleCard long color = "blue">This is title Card</TitleCard>
@@ -24,7 +24,6 @@ const Page = () =>{
     <Typography variant = "caption">caption</Typography>
     <Typography variant = "captionUnderlined">caption - underlined</Typography>
     
-
 
   </div>
 }
