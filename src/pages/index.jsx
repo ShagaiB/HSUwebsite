@@ -26,7 +26,7 @@ const Page = () =>{
     </div>
 
     <Typography variant = "h1">h1</Typography>
-    <Typography variant = "h2">Smesky nut Mandal</Typography>
+    <Typography variant = "h2">Smesky nut</Typography>
     <Typography variant = "h3">h3</Typography>git
     <Typography variant = "schoolTitle">school title</Typography>
     <Typography variant = "amraa">Hot boy Anar</Typography>
