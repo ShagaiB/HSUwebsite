@@ -1,7 +1,15 @@
 import { Typography } from "../components/Typography"
 import { TitleCard } from "../components/TitleCard"
 import { DescriptionCard } from "../components/DescriptionCard"
-
+import Banner from '../../HSUwebsite/public/assets/Banner.png'
+import Image from 'next/image'
+<Image
+      src={Banner}
+      alt="Picture of the author"
+      width="1529px"
+      height="550px"
+      layout="responsive" 
+  />
 const longLoremIpsumText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
 const Page = () =>{
