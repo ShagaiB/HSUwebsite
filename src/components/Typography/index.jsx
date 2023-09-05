@@ -18,7 +18,8 @@ export const Typography = ({ variant, children, className }) => {
       case 'schoolTitle':
         return 'text-[34px] font-bold font-serif leading-[34px]'
       case 'bodyText' :
-        return 'text-[18px] font-regular font-serif w-[456px] h-241px flex-row justify-around'
+        return 'text-[18px] font-regular font-serif w-[456px] h-[241px] flex-row justify-around'
+   
     }
   }
 

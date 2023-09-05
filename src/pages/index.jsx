@@ -31,9 +31,12 @@ const Page = () =>{
     <Typography variant = "bodyBold">bodyBold</Typography>
     <Typography variant = "caption">caption</Typography>
     <Typography variant = "captionUnderlined">body</Typography>
-    <div className="flex flex-row justify-around">
-    <Typography variant = "bodyText">Body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet pulvinar nisi, eget venenatis nunc lobortis sit amet. Vivamus a metus at metus tincidunt sodales eu eu mauris. Pellentesque vulputate posuere leo a aliquet. Cras porttitor lacus a felis semper sollicitudin.</Typography>
+    <div className="flex flex-row">
     <Principal></Principal>
+    <div className="flex flex-col">
+    <Typography variant = "bodyBold">Letter from the Principal</Typography>
+    <Typography variant = "bodyText">Body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet pulvinar nisi, eget venenatis nunc lobortis sit amet. Vivamus a metus at metus tincidunt sodales eu eu mauris. Pellentesque vulputate posuere leo a aliquet. Cras porttitor lacus a felis semper sollicitudin.</Typography>
+    </div>
     </div>
 
   </div>
