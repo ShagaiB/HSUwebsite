@@ -17,7 +17,7 @@ export const Header = () => {
         <Link href = "/">
         <div className="flex flex-row items-center cursor-pointer">
           <div className="w-[85px] ">
-            <Image fill src={logo} alt="img of school logo"></Image>
+          <Image fill src={logo} alt="img of school logo"></Image>
           </div>
 
           <div className=' ml-5 w-[330px] text-[34px] font-serif font-bold leading-[34px]'>

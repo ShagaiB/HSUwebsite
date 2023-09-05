@@ -1,15 +1,7 @@
 import { Typography } from "../components/Typography"
 import { TitleCard } from "../components/TitleCard"
 import { DescriptionCard } from "../components/DescriptionCard"
-import Banner from '../../HSUwebsite/public/assets/Banner.png'
-import Image from 'next/image'
-<Image
-      src={Banner}
-      alt="Picture of the author"
-      width="1529px"
-      height="550px"
-      layout="responsive" 
-  />
+import { Banner } from "../components/Banner"
 const longLoremIpsumText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 
 const Page = () =>{
@@ -26,9 +18,11 @@ const Page = () =>{
 <Typography variant = "h3">dari</Typography>
     <Typography variant = "caption">ermuun</Typography>
     <Typography variant = "caption">money</Typography>
+    <Banner></Banner>
     <div className="my-[50px]">
       <TitleCard>This is title Card</TitleCard>
       <TitleCard long color = "blue">This is title Card</TitleCard>
+      <TitleCard long color = "blue" >Test</TitleCard>
       <DescriptionCard  title = {"Admissions Process"} desc = {longLoremIpsumText} />
       <DescriptionCard color={"blue"}  title = {"Admissions Process"} desc = {longLoremIpsumText} />
     </div>
