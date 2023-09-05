@@ -29,13 +29,15 @@ const Page = () =>{
 
     <Typography variant = "h1">h1</Typography>
     <Typography variant = "h2">Smesky nut</Typography>
-    <Typography variant = "h3">h3</Typography>git
+    <Typography variant = "h3">h3</Typography>
     <Typography variant = "schoolTitle">school title</Typography>
-    <Typography variant = "amraa">Hot boy Anar</Typography>
+    <Typography variant = "h3">Hot boy Anar</Typography>
     <Typography variant = "bodyBold">bodyBold</Typography>
     <Typography variant = "caption">caption</Typography>
     <Typography variant = "captionUnderlined">body</Typography>
-    
+    <div className="flex flex-col w-full items-center">
+    <Typography variant = "bodyText">Body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet pulvinar nisi, eget venenatis nunc lobortis sit amet. Vivamus a metus at metus tincidunt sodales eu eu mauris. Pellentesque vulputate posuere leo a aliquet. Cras porttitor lacus a felis semper sollicitudin.</Typography>
+    </div>
 
   </div>
 }
