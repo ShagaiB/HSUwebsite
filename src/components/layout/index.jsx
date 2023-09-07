@@ -7,7 +7,9 @@ export const MainLayout = ({ children }) => {
 
         <div>
           <Header/>
+          <div className='min-h-screen'>
           {children}
+          </div>
           <Footer/>
         </div>
         
