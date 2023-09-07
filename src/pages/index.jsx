@@ -3,6 +3,7 @@ import { TitleCard } from "../components/TitleCard"
 import { DescriptionCard } from "../components/DescriptionCard"
 import { Banner } from "../components/Banner"
 import { Principal } from "../components/Principal"
+import "../styles/center.css"
 const longLoremIpsumText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 const Page = () =>{
   return <div className="flex flex-col w-full items-center">
@@ -32,13 +33,12 @@ const Page = () =>{
     <Typography variant = "caption">caption</Typography>
     <Typography variant = "captionUnderlined">body</Typography>
     <div className="flex flex-row">
-    <Principal></Principal>
-    <div className="flex flex-col">
-    <Typography variant = "bodyBold">Letter from the Principal</Typography>
+    <div style={{marginRight:"100px"}}><Principal></Principal></div>
+    <div className="flex flex-col" class="center">
+    <Typography variant = "h2">Letter from the Principal</Typography>
     <Typography variant = "bodyText">Body: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed imperdiet pulvinar nisi, eget venenatis nunc lobortis sit amet. Vivamus a metus at metus tincidunt sodales eu eu mauris. Pellentesque vulputate posuere leo a aliquet. Cras porttitor lacus a felis semper sollicitudin.</Typography>
     </div>
     </div>
-
   </div>
 }
 
