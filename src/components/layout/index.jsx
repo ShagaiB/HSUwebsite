@@ -1,14 +1,21 @@
 import { Header } from './header'
 import { Footer } from './footer'
+import { TitleCard } from '../TitleCard'
 
 export const MainLayout = ({ children }) => {
   return (
-    <div className="w-screen flex justify-center">
-      <div className="flex flex-col items-center justify-between min-h-screen w-screen ">
-        <Header />
-        {children}
-        <Footer />
-      </div>
-    </div>
+
+        <div>
+          <Header/>
+          <div className='min-h-screen pt-[145px]'>
+          {children}
+          </div>
+          <Footer/>
+        </div>
+        
+
   )
 }
+
+{/* <Footer /> */}
+{/* <Header /> */}
