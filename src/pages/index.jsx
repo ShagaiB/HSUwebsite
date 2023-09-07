@@ -10,4 +10,6 @@ const Page = () =>{
     <Principal/>
 
   </div>
+}
 
+export default Page

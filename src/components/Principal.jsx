@@ -1,10 +1,10 @@
-import principal from '/workspaces/HSUwebsite/public/assets/Principal.png'
+import principal from '../../public/assets/Principal.png'
 import Image from 'next/image'
 export const Principal = () =>{
     
     return (
         <div className="w-[500px]">
-<Image src={principal} alt="Img of Principal"/>
+            <Image src={principal} alt="Img of Principal"/>
         </div>
         
     )
