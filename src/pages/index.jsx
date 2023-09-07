@@ -5,11 +5,9 @@ import { CollegeBanner } from "../components/CollegeBanner"
 
 const Page = () =>{
 
-  return <div>
+  return <div className="">
     <HomePageTop/>
-
-<CollegeBanner/>
-
+    <CollegeBanner/>
     <Banner/>
     <Principal/>
 

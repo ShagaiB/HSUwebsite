@@ -11,7 +11,7 @@ export const CollegeBanner = () => {
   const [activeSlide, setActiveSlide] = useState(0)
 
   return (
-    <div className="w-screen">
+    <div className="">
       <Carousel
         autoplay={true}
         infinite={true}
