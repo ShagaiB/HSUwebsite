@@ -12,12 +12,11 @@ const imageStyle = {
 export const HomePageTop = () => {
   return <div className=" w-screen h-screen flex items-center  flex-col ">
 
-    <div className='flex flex-col justify-between items-start absolute z-20 h-full pb-12 w-[90%]'>
+    <div className='flex flex-col justify-between items-start absolute -mt-[145px] z-20 h-full pb-12 w-[90%]'>
       <div className='w-1 h-1 '></div>
       <DescriptionCard color= "blue" title = "The First The Best " desc = {longLorem}/>
 
     </div>
-    <div className='h-24'></div>
     <div className='w-screen '><Image fill src = {topPic}></Image></div>
     
   </div>

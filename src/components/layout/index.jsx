@@ -7,7 +7,7 @@ export const MainLayout = ({ children }) => {
 
         <div>
           <Header/>
-          <div className='min-h-screen'>
+          <div className='min-h-screen pt-[145px]'>
           {children}
           </div>
           <Footer/>
