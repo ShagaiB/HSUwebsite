@@ -22,7 +22,7 @@ export const Header = () => {
         <Link href = "/">
         <div className="flex flex-row items-center cursor-pointer">
           <div className="w-[85px] ">
-            <Image fill src={logo} alt="img of school logo"></Image>
+          <Image fill src={logo} alt="img of school logo"></Image>
           </div>
 
           <Typography variant = "schoolTitle" className={"ml-3"}>Hobby School of Ulaanbaatar</Typography>
