@@ -22,8 +22,7 @@ export const Typography = ({ variant, children, className}) => {
         return 'text-[34px] font-bold font-serif leading-[34px]'
       case 'amraa':
         return 'text-[1000px] font-bold font-serif'
-      case 'bodyText' :
-        return 'text-[18px] font-light font-serif w-[456px] h-[241px] flex-row justify-around'
+    
    
     }
   }

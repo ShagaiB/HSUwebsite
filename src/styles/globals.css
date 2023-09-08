@@ -47,3 +47,12 @@ body{
     background: #FFE819;
 
 }
+.principalcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.PrincipalTextContainer{
+    width: 456px;
+}
